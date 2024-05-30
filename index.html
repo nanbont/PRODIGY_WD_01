@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="heading">
+            <a href=""><img src="./images/logo.svg" alt=""></a>
+        </div>
+        <span class="sideMenuButton" 
+            onclick="openNavbar()">
+            &#9776
+        </span>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="https://prodigyinfotech.dev/">Home</a></li>
+                <li><a href="https://prodigyinfotech.dev/">About</a></li>
+                <li><a href="https://prodigyinfotech.dev/">Sign Up</a></li>
+                <li><a href="https://prodigyinfotech.dev/">Log In</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar" 
+        id="sideNavigationBar">
+        <a href="#" class="closeButton" 
+            onclick="closeNavbar()">
+            &#x274C
+        </a>
+        <a href="https://prodigyinfotech.dev/">Home</a>
+        <a href="https://prodigyinfotech.dev/">About</a>
+        <a href="https://prodigyinfotech.dev/">Sign Up</a>
+    </div>
+
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>Welcome to Prodigy InfoTech</h1>
+            <button>
+                <a href=
+"https://prodigyinfotech.dev/">
+                    Explore More
+                </a>
+            </button>
+        </div>
+        <div class="side2">
+            <img src=
+"images/img1.jpg"
+                width="500">
+        </div>
+    </div>
+
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span>Our Internships</span>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                          <h3>Software Development Internship</h3>    </a>
+                    </div>
+                    <p>
+                        In this internship, you will get a valuable opportunity to gain hands-on experience with the software development life cycle, including the development of CLI and GUI applications, as well as exposure to web scraping techniques. You will work alongside experienced professionals, learning industry-standard tools and practices, and contributing to real-world software projects. This internship will provide you with the chance to enhance your technical skills, collaborate with a team, and build a strong foundation for your future career in software development.
+                    </p>
+                </div>
+                <div class="box">
+
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            <h3>Web Dev Internship</h3>
+                        </a>
+                    </div>
+                    <p>
+                        In a web development internship, you will have the opportunity to delve into the world of creating dynamic and interactive websites and web applications. The internship will cover essential components such as HTML5 and CSS3, which are the building blocks for structuring and styling web pages. You will learn how to craft visually appealing and responsive websites that adapt seamlessly to different screen sizes and devices. Additionally, you will dive into JavaScript, a powerful programming language that enables interactivity and functionality on the web. Through hands-on experience, you will gain proficiency in developing web applications that can handle user input, process data, and provide dynamic content. This internship will equip you with the skills and knowledge needed to create engaging and user-friendly web experiences while preparing you for a career in web development.
+                    </p>
+                </div>
+
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            <h3>Android Development Internship</h3>
+                        </a>
+                    </div>
+                    <p>
+                        An Android development internship provides an immersive experience in the world of mobile app development for the Android platform. Through the internship, you will gain hands-on experience with technologies such as Kotlin, Flutter, or React Native, enabling you to create simple and advanced apps. You will learn about user interface design, data handling, and integrating features like multimedia and location services. Additionally, you will explore cloud-based app development, leveraging cloud services for enhanced functionality. By the end of the internship, you will have the skills to design, build, and deploy Android apps, positioning you for a successful career in mobile app development.
+                    </p>
+                </div>
+
+
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                          <h3>Machine Learning Internship</h3>    </a>
+                    </div>
+                    <p>
+                        A machine learning internship provides practical experience and knowledge in data analysis, supervised learning, unsupervised learning, and deep learning. Through this internship, you will gain hands-on skills in analyzing data, training models with labeled data, identifying patterns in unlabeled data, and delving into the complexities of deep learning. This internship will equip you with a solid foundation in machine learning techniques, empowering you to tackle real-world challenges and contribute to advancements in the field.
+                    </p>
+                </div>
+
+
+
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                          <h3>Data Science Internship</h3>    </a>
+                    </div>
+                    <p>
+                        A data science internship covers essential areas such as EDA, data pre-processing, data visualization, and BI tools, providing practical skills in analyzing and interpreting data for informed decision-making. By the end of the Intern, you will have the skills to develop data science projects, positioning you for success in data science.
+                    </p>
+                </div>
+
+
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                          <h3>Cyber Security Internship</h3>    </a>
+                    </div>
+                    <p>
+                        A cybersecurity internship covers important areas such as encryption, pixel manipulation, password security, keyloggers, and network packet analysis, providing practical skills in safeguarding digital assets and detecting potential threats. By the end of the Intern, you will have the skills to develop cybersecurity projects, positioning you for success in cybersecurity.
+                    </p>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Sign Up</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Your Name</div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Name here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Email</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Email here">
+                    </div>
+                    <div class="label1">
+                        <label>Your Password</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Enter your Password here">
+                    </div>
+                    <div class="button">
+                        <button>Sign Up</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="title1">
+                            <span>
+                                Contact Us
+                            </span>
+                        </div>
+                        <div class="content1">
+                            (Mumbai - 400018, Maharashta, India)
+                            contact@prodigyinfotech.dev
+                        </div>
+                        <div class="title1">
+                            <span>More Information</span>
+                        </div>
+                        <div class="content1">
+                            An EdTech Startup built by a team of passionate educators and entrepreneurs who are committed to transforming the way people learn and grow.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+                Created By
+                <a href="https://nanbonportfolio.netlify.app/" 
+                    target="_blank">
+                    Nanbon Tadele
+                </a>
+            </span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
